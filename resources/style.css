@@ -1,0 +1,118 @@
+* {
+    font-family: 'Roboto-Mono', sans-serif;
+}
+
+body {
+    margin: 2.25% 17.67%;
+    background-color: lightgrey;
+}
+
+#name {
+    color: black;
+}
+
+h1 {
+    color: darkorange;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+#about {
+    margin: 10% auto 3% auto;
+    text-align: justify;
+}
+
+#about p {
+    text-indent: 1.27cm;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    line-height: 2.67rem;
+}
+
+#about img {
+    float: right;
+    margin-left: 5%;
+}
+
+#projects {
+    margin-top: 2%;
+}
+
+#projects p {
+    margin-top: 5%;
+    font-size: 1.5rem;
+    text-indent: 0.5in;
+}
+
+#projects summary {
+    font-size: 1.5rem;
+    margin: 4% 6%;
+    list-style: inside;
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+    cursor: pointer;
+}
+
+#projects summary:hover {
+    color: darkorange;
+}
+
+#projects img {
+    width: 525px;
+    height: 400px;
+    margin-left: 10%;
+}
+
+#skills {
+    margin-top: 10%;
+}
+
+#skills-ul {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    margin-left: 13%;
+}
+
+#skills img {
+    width: 40px;
+    height: 40px;
+}
+
+#imgs {
+    list-style: none;
+}
+
+#skills-words li {
+    margin: 11% 0;
+    font-weight: 550;
+}
+
+#contact {
+    margin-top: 3%;
+}
+
+#contact h5 {
+    margin-top: 3%;
+    text-align: center;
+}
+
+#contact a {
+    color: black;
+}
+
+#contact a:hover {
+    color: darkorange;
+}
