@@ -63,7 +63,27 @@ nav a:hover {
     margin: 4% 6%;
     list-style: inside;
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-    cursor: pointer;
+}
+
+#projects a {
+    font-size: 1.5rem;
+    margin: 4% 6%;
+}
+
+#projects a::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);    
+}
+
+
+#folder {
+    list-style: inside;
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
 #projects summary:hover {
