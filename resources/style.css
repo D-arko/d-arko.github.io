@@ -46,6 +46,8 @@ nav a:hover {
 #about img {
     float: right;
     margin-left: 5%;
+    width: 10%;
+    height: auto;
 }
 
 #projects {
