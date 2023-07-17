@@ -70,6 +70,13 @@ nav a:hover {
 #projects a {
     font-size: 1.5rem;
     margin: 4% 6%;
+    color: black;
+}
+
+#projects a:hover,
+#site-img:hover {
+    color: darkorange;
+    cursor: pointer;
 }
 
 #projects a::before {
@@ -137,4 +144,12 @@ nav a:hover {
 
 #contact a:hover {
     color: darkorange;
+}
+
+.project {
+    margin: 15px;
+}
+
+h3 {
+    margin-left: 20px;
 }

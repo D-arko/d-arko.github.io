@@ -18,21 +18,33 @@
         <h2>About Me</h2>
         <br>
         <img src="resources/cv.png" alt="picture-of-me">
-        <p>Hi, I am Darko, master of economic science with strong mathematical background and programming skills. In search of cooperative work and dynamic and challenging environment in the IT industry. Motivated in developing new programming skills. Capable to work under pressure and perform tasks in a given time frame.</p>
+        <p>
+            Full Stack Software Engineer / Master of Economic Science
+            with experience building simple web apps from scratch.
+            Motivated in developing new skills. Capable to work under pressure and perform tasks in a given time frame.
+        </p>
         <p>This website was last updated <span id="time-container"> 000</span> seconds ago!</p>
     </div>
-    <br>
     <br>
     <div id="projects">
         <h2>Projects</h2>
         <p>These are some of my projects!</p>
+        <h3>Front-end (React):</h3>
+        <div class="project">
+            <a href="https://reddit-api-darko.netlify.app" target="_blank">Reddit API App</a>
+            <a href="https://github.com/D-arko/redditapi" target="_blank">Reddit API App (Project Folder on GitHub)</a>
+        </div>
+        
+        <div class="project">
+            <a href="https://spotify-api-darko.netlify.app" target="_blank">Spotify API App</a>
+            <a href="https://github.com/D-arko/spotifyapi" target="_blank">Spotify API App (Project Folder on GitHub)</a>
+        </div>
+        
         <br>
         <h3>Back-end (Node.js, Express.js, PostgreSQL):</h3>
-        <a href="https://github.com/D-arko/E-Commerce" target="_blank">E-Commerce Web Application (Project Folder on GitHub)</a>
-        <h3>Front-end (React):</h3>
-        <a href="https://spotify-api-darko.netlify.app" target="_blank">Spotify API</a>
-        <a href="https://github.com/D-arko/spotifyapi" target="_blank">Spotify API (Project Folder on GitHub)</a>
-        <br>
+        <div class="project">
+            <a href="https://github.com/D-arko/E-Commerce" target="_blank">E-Commerce Web Application (Project Folder on GitHub)</a>
+        </div>
         <br>
         <h3>HTML + CSS:</h3>
         <details class="project">
@@ -75,7 +87,7 @@
     </div>
     <script>
         const timeContainer = document.getElementById("time-container");
-        const lastUpdate = "06-09-2023";
+        const lastUpdate = "07-17-2023";
         const lastUpdateDate = new Date(lastUpdate);
         const intlNumberFormatter = new Intl.NumberFormat("en-US");
 
